@@ -1,0 +1,8 @@
+Package: telegram-cli
+Version: 1.0-0
+Priority: optional
+Maintainer: Sebastian Elisa Pfeifer <sebastian.pfeifer@unicorncloud.org>
+Priority: optional
+Architecture: all
+Description: Telegam CLI
+ Telegram CLI
