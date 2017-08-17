@@ -1,7 +1,7 @@
 language: cpp
 
 before_install:
-   - gem install package_clou
+   - gem install package_cloud
 
 install:
     - sudo apt-get install -y libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson-dev libpython-dev make libgcrypt20 libgcrypt20-dev
