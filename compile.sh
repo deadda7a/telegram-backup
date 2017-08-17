@@ -8,3 +8,4 @@ cd ..
 mv tg/bin/telegram-cli package/usr/bin/
 chown -R root:root package
 dpkg-deb --build package
+mv package.dev telegram-cli.deb
