@@ -9,3 +9,4 @@ mv tg/bin/telegram-cli package/usr/bin/
 chown -R root:root package
 dpkg-deb --build package
 mv package.deb telegram-cli.deb
+package_cloud push deadda7a/telegram-cli/ubuntu/xenial ./telegram-cli.deb
