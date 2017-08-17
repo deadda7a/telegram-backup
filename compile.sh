@@ -9,5 +9,5 @@ mv tg/bin/telegram-cli package/usr/bin/
 dpkg-deb --build package
 mv package.deb telegram-cli.deb
 cp telegram-cli.deb telegram-cli-jessie.deb
-package_cloud push deadda7a/telegram-cli/ubuntu/xenial ./telegram-cli.deb
-package_cloud push deadda7a/telegram-cli/debian/jessie ./telegram-cli-jessie.deb
+package_cloud push deadda7a/telegram-cli/ubuntu/xenial ./telegram-cli.deb --skip-errors
+package_cloud push deadda7a/telegram-cli/debian/jessie ./telegram-cli-jessie.deb --skip-errors
